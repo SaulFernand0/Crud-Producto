@@ -22,6 +22,7 @@ import pe.edu.upeu.apirest.model.Producto;
 
 @RestController
 public class ProductoController {
+	
 	   @Autowired
 	    ProductoService productoService;
 	   
