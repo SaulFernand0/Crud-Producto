@@ -30,7 +30,7 @@ public class ProductoController {
 	        return "Bienvenido";
 	    }
 	   
-	   @GetMapping("/readAll")
+	   @GetMapping("/listar")
 	    public ResponseEntity<List<Producto>> readAll(){
 	    	List<Producto> productos = new ArrayList<Producto>();
 	        try {
